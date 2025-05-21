@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-600 text-white shadow-md">
+    <div class="container mx-auto flex flex-wrap justify-between items-center p-4 md:p-6">
+      <a href="#" class="text-2xl md:text-3xl font-bold hover:text-blue-200 transition-colors">Logo</a>
+      <nav class="mt-4 md:mt-0">
+        <ul class="flex space-x-4 md:space-x-6">
+          <li><a href="#" class="hover:text-blue-200 transition-colors pb-1 border-b-2 border-transparent hover:border-blue-200">Home</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition-colors pb-1 border-b-2 border-transparent hover:border-blue-200">About</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition-colors pb-1 border-b-2 border-transparent hover:border-blue-200">Services</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition-colors pb-1 border-b-2 border-transparent hover:border-blue-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-gray-100 py-16 md:py-24">
+    <div class="container mx-auto text-center px-4">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-blue-600">Welcome to Our Awesome Service!</h1>
+      <p class="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">Discover how we can help you achieve your goals with our innovative solutions and dedicated support.</p>
+      <a href="#" class="bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-transform transform hover:scale-105">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 md:py-24">
+    <div class="container mx-auto text-center px-4">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-16 text-gray-800">Key Features</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+        <!-- Feature 1 -->
+        <div class="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div class="text-blue-600 text-5xl mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v11.494m0 0A2.25 2.25 0 0014.25 20H16.5a2.25 2.25 0 002.25-2.25V6.253m-4.5 11.494A2.25 2.25 0 019.75 20H7.5a2.25 2.25 0 01-2.25-2.25V6.253m4.5 11.494V6.253" /></svg>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-800">Feature One</h3>
+          <p class="text-gray-600">Description of the first amazing feature that will impress users with its capabilities.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div class="text-blue-600 text-5xl mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" /></svg>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-800">Feature Two</h3>
+          <p class="text-gray-600">Description of the second awesome feature that solves a critical problem effectively.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="bg-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div class="text-blue-600 text-5xl mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="text-2xl font-semibold mb-3 text-gray-800">Feature Three</h3>
+          <p class="text-gray-600">Description of the third cool feature that everyone will love for its simplicity and power.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="container mx-auto text-center px-4">
+      <p class="mb-6 text-lg">© 2024 Your Company. All rights reserved.</p>
+      <div class="flex justify-center space-x-6">
+        <a href="#" class="hover:text-blue-400 transition-colors">Facebook</a>
+        <a href="#" class="hover:text-blue-400 transition-colors">Twitter</a>
+        <a href="#" class="hover:text-blue-400 transition-colors">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
